@@ -16,7 +16,7 @@ class faktury {
 			)
 		);
 	}
-    function getList( ){
+    /*function getList( ){
        return array(
             'success'=>true,
             'total'=>7,
@@ -88,5 +88,11 @@ class faktury {
             )
         );
 
+	}*/
+	function getList(){
+		$dane = file_get_contents("classes/FakturyNieoplacone.json");
+		
+		$json = json_decode($dane);
+		return $json;
+		}
 	}
-}

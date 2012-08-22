@@ -15,7 +15,7 @@
             "true"
         ],
         "insetPadding": 20,
-        "store": "FakturyStore"
+        "store": "ObrotStore"
     },
     "id": "ExtBox1-ext-gen104850",
     "designerId": "472bc1aa-4b8f-44cc-ad75-9557c4432a3a",
@@ -32,17 +32,20 @@
                 "highlight": [
                     "true"
                 ],
+                "showInLegend": true,
                 "tips": [
                     "{ trackMouse: false,\r",
-                    "  width: 140,\r",
-                    "  height: 28,\r",
+                    "  width: 150,\r",
+                    "  height: 38,\r",
                     "  renderer: function(storeItem, item) {\r",
-                    "    this.setTitle(storeItem.get('date') + ': ' + storeItem.get('value'));\r",
+                    "    this.setTitle(storeItem.get('name') + ': ' + storeItem.get('ilosc'));\r",
+                    "      //console.log(item)\r",
                     "  }}"
                 ],
                 "title": "date",
-                "angleField": "date",
-                "donut": null
+                "angleField": "ilosc",
+                "donut": 10,
+                "lengthField": null
             },
             "designerId": "53385708-8e0c-4a48-8947-9d0c1d6c39a0"
         }

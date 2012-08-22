@@ -19,10 +19,22 @@ Ext.Loader.setConfig({
 
 Ext.application({
     models: [
-        'Faktura'
+        'Faktura',
+        'Zadanie',
+        'Podsumowanie',
+        'WykresGrupy',
+        'DynamikaPrzychodu',
+        'Obrot',
+        'Dluznik'
     ],
     stores: [
-        'FakturyStore'
+        'FakturyStore',
+        'ObrotStore',
+        'ZadaniaStore',
+        'WykresGrupyStore',
+        'DynamikaPrzychoduStore',
+        'DluznicyStore',
+        'PodsumowanieStore'
     ],
     views: [
         'PieChart',

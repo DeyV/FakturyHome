@@ -1,0 +1,41 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DynamikaPrzychodu"
+    },
+    "id": "ExtBox1-ext-gen14714",
+    "designerId": "6d208628-3613-41c9-92fa-61b7d9c07dc8",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField16",
+                "name": "okres"
+            },
+            "designerId": "e752b01f-4060-416d-a6cb-b9894f4489b6"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField17",
+                "name": "wartosc"
+            },
+            "designerId": "35e78462-9447-4048-94af-023565a10ef4"
+        }
+    ]
+}

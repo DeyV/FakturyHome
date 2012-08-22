@@ -14,7 +14,7 @@
             "true"
         ],
         "insetPadding": 20,
-        "store": "FakturyStore"
+        "store": "WykresGrupyStore"
     },
     "id": "ExtBox1-ext-gen1888",
     "designerId": "3168f76a-8ee8-421c-9036-f3687cff0387",
@@ -28,11 +28,8 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyCategoryAxis",
-                "fields": [
-                    "made_for"
-                ],
                 "position": "bottom",
-                "title": "Category Axis"
+                "title": "Kategoria"
             },
             "designerId": "f9e7f188-1db8-4676-ad58-34dc0857b348"
         },
@@ -46,10 +43,11 @@
             "userConfig": {
                 "designer|userClassName": "MyNumericAxis",
                 "fields": [
-                    "value"
+                    "ilosc"
                 ],
                 "position": "left",
-                "title": "Numeric Axis"
+                "title": "Ilość",
+                "adjustMaximumByMajorUnit": true
             },
             "designerId": "7d6a290a-a240-4c81-b4d0-5d133d607ba9"
         },
@@ -62,9 +60,9 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyLineSeries",
-                "xField": "x",
+                "xField": "ilosc",
                 "yField": [
-                    "y"
+                    "datawystawienia"
                 ],
                 "smooth": 3
             },
@@ -79,9 +77,9 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyColumnSeries",
-                "xField": "date",
+                "xField": null,
                 "yField": [
-                    "value"
+                    "ilosc"
                 ],
                 "groupGutter": 28
             },

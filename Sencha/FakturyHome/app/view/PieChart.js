@@ -22,7 +22,7 @@ Ext.define('MyApp.view.PieChart', {
 
     height: 624,
     hidden: false,
-    id: 'PieChart',
+    id: 'OknoPieChart',
     width: 966,
     layout: {
         align: 'stretch',
@@ -40,33 +40,40 @@ Ext.define('MyApp.view.PieChart', {
             items: [
                 {
                     xtype: 'piechart1',
+                    id: 'PieChartOkno',
+                    stateId: 'PieChartOkno',
                     theme: 'Purple',
                     flex: 1
                 },
                 {
-                    xtype: 'fieldset',
-                    flex: 1,
-                    title: 'Faktury Opłacone / Nieopłacone',
-                    items: [
+                    xtype: 'gridpanel',
+                    width: 400,
+                    title: 'My Grid Panel',
+                    store: 'ObrotStore',
+                    viewConfig: {
+                        listeners: {
+                            itemmouseenter: {
+                                fn: me.onGridviewItemMouseEnter,
+                                scope: me
+                            }
+                        }
+                    },
+                    columns: [
                         {
-                            xtype: 'textfield',
-                            anchor: '100%',
-                            fieldLabel: 'Label'
+                            xtype: 'gridcolumn',
+                            dataIndex: 'ilosc',
+                            text: 'Ilosc'
                         },
                         {
-                            xtype: 'textfield',
-                            anchor: '100%',
-                            fieldLabel: 'Label'
+                            xtype: 'gridcolumn',
+                            dataIndex: 'value',
+                            text: 'Value'
                         },
                         {
-                            xtype: 'textfield',
-                            anchor: '100%',
-                            fieldLabel: 'Label'
-                        },
-                        {
-                            xtype: 'textfield',
-                            anchor: '100%',
-                            fieldLabel: 'Label'
+                            xtype: 'gridcolumn',
+                            dataIndex: 'name',
+                            flex: 1,
+                            text: 'Name'
                         }
                     ]
                 }
@@ -74,6 +81,11 @@ Ext.define('MyApp.view.PieChart', {
         });
 
         me.callParent(arguments);
+    },
+
+    onGridviewItemMouseEnter: function(dataview, record, item, index, e, options) {
+        var lol = Ext.getCmp("PieChartOkno").series.first()
+        lol.highlightItem(lol.items[index])
     }
 
 });

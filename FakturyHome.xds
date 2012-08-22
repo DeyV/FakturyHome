@@ -100,6 +100,102 @@
                 "Sencha/FakturyHome/app/view/LineChart.js"
             ],
             "className": "LineChart"
+        },
+        "c173e1d7-15f3-4796-aa18-a68586fe9079": {
+            "paths": [
+                "metadata/store/ObrotStore",
+                "Sencha/FakturyHome/app/store/override/ObrotStore.js",
+                "Sencha/FakturyHome/app/store/ObrotStore.js"
+            ],
+            "className": "ObrotStore"
+        },
+        "192f2fcb-b2d2-4965-935e-11eede36ef7b": {
+            "paths": [
+                "metadata/store/DynamikaPrzychoduStore",
+                "Sencha/FakturyHome/app/store/override/DynamikaPrzychoduStore.js",
+                "Sencha/FakturyHome/app/store/DynamikaPrzychoduStore.js"
+            ],
+            "className": "DynamikaPrzychoduStore"
+        },
+        "0daaf745-ba14-43a7-b63a-ec352e9a4ee0": {
+            "paths": [
+                "metadata/store/WykresGrupyStore",
+                "Sencha/FakturyHome/app/store/override/WykresGrupyStore.js",
+                "Sencha/FakturyHome/app/store/WykresGrupyStore.js"
+            ],
+            "className": "WykresGrupyStore"
+        },
+        "8081641d-f887-43d7-b2dd-d5da26bf0372": {
+            "paths": [
+                "metadata/store/ZadaniaStore",
+                "Sencha/FakturyHome/app/store/override/ZadaniaStore.js",
+                "Sencha/FakturyHome/app/store/ZadaniaStore.js"
+            ],
+            "className": "ZadaniaStore"
+        },
+        "98b5d4b9-ab44-4734-b0cc-975776732526": {
+            "paths": [
+                "metadata/model/Zadanie",
+                "Sencha/FakturyHome/app/model/override/Zadanie.js",
+                "Sencha/FakturyHome/app/model/Zadanie.js"
+            ],
+            "className": "Zadanie"
+        },
+        "c93fd66d-0384-4308-9f4e-d0174873bfba": {
+            "paths": [
+                "metadata/model/Dluznik",
+                "Sencha/FakturyHome/app/model/override/Dluznik.js",
+                "Sencha/FakturyHome/app/model/Dluznik.js"
+            ],
+            "className": "Dluznik"
+        },
+        "a652860e-63ef-4345-b804-37dba5a13bb4": {
+            "paths": [
+                "metadata/model/Obrot",
+                "Sencha/FakturyHome/app/model/override/Obrot.js",
+                "Sencha/FakturyHome/app/model/Obrot.js"
+            ],
+            "className": "Obrot"
+        },
+        "6d208628-3613-41c9-92fa-61b7d9c07dc8": {
+            "paths": [
+                "metadata/model/DynamikaPrzychodu",
+                "Sencha/FakturyHome/app/model/override/DynamikaPrzychodu.js",
+                "Sencha/FakturyHome/app/model/DynamikaPrzychodu.js"
+            ],
+            "className": "DynamikaPrzychodu"
+        },
+        "27142ec5-70dc-4d8e-b111-d0735b07ae9d": {
+            "paths": [
+                "metadata/model/WykresGrupy",
+                "Sencha/FakturyHome/app/model/override/WykresGrupy.js",
+                "Sencha/FakturyHome/app/model/WykresGrupy.js"
+            ],
+            "className": "WykresGrupy"
+        },
+        "80f20df4-a9f0-48da-be15-643ad21fedb7": {
+            "paths": [
+                "metadata/model/Podsumowanie",
+                "Sencha/FakturyHome/app/model/override/Podsumowanie.js",
+                "Sencha/FakturyHome/app/model/Podsumowanie.js"
+            ],
+            "className": "Podsumowanie"
+        },
+        "afcdfbe8-03bb-44db-b8ee-555a4b038418": {
+            "paths": [
+                "metadata/store/DluznicyStore",
+                "Sencha/FakturyHome/app/store/override/DluznicyStore.js",
+                "Sencha/FakturyHome/app/store/DluznicyStore.js"
+            ],
+            "className": "DluznicyStore"
+        },
+        "fa87ebb9-9e50-4f06-9093-d8c068cc0997": {
+            "paths": [
+                "metadata/store/PodsumowanieStore",
+                "Sencha/FakturyHome/app/store/override/PodsumowanieStore.js",
+                "Sencha/FakturyHome/app/store/PodsumowanieStore.js"
+            ],
+            "className": "PodsumowanieStore"
         }
     },
     "viewOrderMap": {
@@ -111,11 +207,23 @@
             "4a126a20-9b38-4a2d-a7c5-3c9e915efb7a"
         ],
         "store": [
-            "d67e0f7d-0b78-46bf-bf43-8f3245734d83"
+            "d67e0f7d-0b78-46bf-bf43-8f3245734d83",
+            "fa87ebb9-9e50-4f06-9093-d8c068cc0997",
+            "afcdfbe8-03bb-44db-b8ee-555a4b038418",
+            "c173e1d7-15f3-4796-aa18-a68586fe9079",
+            "192f2fcb-b2d2-4965-935e-11eede36ef7b",
+            "0daaf745-ba14-43a7-b63a-ec352e9a4ee0",
+            "8081641d-f887-43d7-b2dd-d5da26bf0372"
         ],
         "controller": [],
         "model": [
-            "b7dad3c5-9f2d-499e-a78c-d753abc0fd60"
+            "b7dad3c5-9f2d-499e-a78c-d753abc0fd60",
+            "98b5d4b9-ab44-4734-b0cc-975776732526",
+            "c93fd66d-0384-4308-9f4e-d0174873bfba",
+            "a652860e-63ef-4345-b804-37dba5a13bb4",
+            "6d208628-3613-41c9-92fa-61b7d9c07dc8",
+            "27142ec5-70dc-4d8e-b111-d0735b07ae9d",
+            "80f20df4-a9f0-48da-be15-643ad21fedb7"
         ],
         "resource": [
             "897cf178-88ea-45f7-bfe4-71321904f8cb",

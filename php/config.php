@@ -1,12 +1,5 @@
 <?php
 $API = array(
-    'Kordynators'=>array(
-        'methods'=>array( 
-            'getList'=>array(
-                 'len'=>0
-            )
-        )
-    ),
 	'Faktury'=>array(
         'methods'=>array( 
             'getList'=>array(
@@ -18,7 +11,42 @@ $API = array(
 			)
         )
     ),
-    'Rejony'=>array(
+    'Obrot'=>array(
+        'methods'=>array( 
+            'getList'=>array(
+                'len' => 1 
+            )
+        )
+    ),
+    'WykresGrupy'=>array(
+        'methods'=>array( 
+            'getList'=>array(
+                'len' => 1 
+            )
+        )
+    ),
+    'DynamikaPrzychodu'=>array(
+        'methods'=>array( 
+            'getList'=>array(
+                'len' => 1 
+            )
+        )
+    ),
+    'Podsumowanie'=>array(
+        'methods'=>array( 
+            'getList'=>array(
+                'len' => 1 
+            )
+        )
+    ),
+    'Dluznicy'=>array(
+        'methods'=>array( 
+            'getList'=>array(
+                'len' => 1 
+            )
+        )
+    ),
+    'Zadania'=>array(
         'methods'=>array( 
             'getList'=>array(
                 'len' => 1 

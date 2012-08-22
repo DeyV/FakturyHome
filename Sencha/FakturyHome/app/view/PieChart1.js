@@ -21,7 +21,7 @@ Ext.define('MyApp.view.PieChart1', {
     width: 282,
     animate: true,
     insetPadding: 20,
-    store: 'FakturyStore',
+    store: 'ObrotStore',
 
     initComponent: function() {
         var me = this;
@@ -31,16 +31,19 @@ Ext.define('MyApp.view.PieChart1', {
                 {
                     type: 'pie',
                     highlight: true,
+                    showInLegend: true,
                     tips: {
                         trackMouse: false,
-                        width: 140,
-                        height: 28,
+                        width: 150,
+                        height: 38,
                         renderer: function(storeItem, item) {
-                        this.setTitle(storeItem.get('date') + ': ' + storeItem.get('value'));
+                        this.setTitle(storeItem.get('name') + ': ' + storeItem.get('ilosc'));
+                          //console.log(item)
                       }
                     },
                     title: 'date',
-                    angleField: 'date'
+                    angleField: 'ilosc',
+                    donut: 10
                 }
             ]
         });

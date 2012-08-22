@@ -10,7 +10,8 @@
         "designer|userClassName": "PieChart",
         "height": 624,
         "hidden": false,
-        "id": "PieChart",
+        "id": "OknoPieChart",
+        "itemId": null,
         "width": 966,
         "layout": "hbox",
         "title": "Okno",
@@ -29,6 +30,8 @@
             },
             "codeClass": null,
             "userConfig": {
+                "id": "PieChartOkno",
+                "stateId": "PieChartOkno",
                 "theme": "Purple",
                 "layout|flex": 1
             },
@@ -36,74 +39,96 @@
             "masterInstanceId": "ExtBox1-ext-gen104850"
         },
         {
-            "type": "fieldset",
+            "type": "gridpanel",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "layout|flex": 1,
-                "designer|userClassName": "MyFieldSet",
-                "title": "Faktury Opłacone / Nieopłacone"
+                "layout|flex": null,
+                "designer|userClassName": "MyGridPanel5",
+                "width": 400,
+                "title": "My Grid Panel",
+                "store": "ObrotStore"
             },
-            "designerId": "e5ee0f0f-fd65-4577-8479-6164f7c1e531",
+            "designerId": "82195b93-d508-439a-9699-dd2242abbbff",
             "cn": [
                 {
-                    "type": "textfield",
+                    "type": "gridview",
                     "reference": {
-                        "name": "items",
-                        "type": "array"
+                        "name": "viewConfig",
+                        "type": "object"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|anchor": "100%",
-                        "designer|userClassName": "MyTextField",
-                        "fieldLabel": "Label"
+                        "designer|userClassName": "MyGridView5"
                     },
-                    "designerId": "f6e99533-4673-40e8-b665-22d1be3a08ec"
+                    "designerId": "17f85413-5e40-4bf1-ae04-3d48de334d43",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onGridviewItemMouseEnter",
+                                "fn": "onGridviewItemMouseEnter",
+                                "implHandler": [
+                                    "var lol = Ext.getCmp(\"PieChartOkno\").series.first()\r",
+                                    "lol.highlightItem(lol.items[index])"
+                                ],
+                                "name": "itemmouseenter",
+                                "scope": "me"
+                            },
+                            "designerId": "6edbd569-6563-4692-a53a-43f16a4597b9"
+                        }
+                    ]
                 },
                 {
-                    "type": "textfield",
+                    "type": "gridcolumn",
                     "reference": {
-                        "name": "items",
+                        "name": "columns",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|anchor": "100%",
-                        "designer|userClassName": "MyTextField",
-                        "fieldLabel": "Label"
+                        "designer|userClassName": "MyColumn15",
+                        "dataIndex": "ilosc",
+                        "text": "Ilosc"
                     },
-                    "designerId": "350617ce-6cf9-458d-8c95-b8e0d2d30d91"
+                    "designerId": "c46ea76c-ae8a-4003-87ac-68e21b3974d3"
                 },
                 {
-                    "type": "textfield",
+                    "type": "gridcolumn",
                     "reference": {
-                        "name": "items",
+                        "name": "columns",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|anchor": "100%",
-                        "designer|userClassName": "MyTextField",
-                        "fieldLabel": "Label"
+                        "designer|userClassName": "MyColumn16",
+                        "dataIndex": "value",
+                        "text": "Value"
                     },
-                    "designerId": "070c40b1-607e-4896-97e2-c215963d5ccf"
+                    "designerId": "02e7be6d-1f53-4e30-a1bc-b2a721bbb7d3"
                 },
                 {
-                    "type": "textfield",
+                    "type": "gridcolumn",
                     "reference": {
-                        "name": "items",
+                        "name": "columns",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|anchor": "100%",
-                        "designer|userClassName": "MyTextField",
-                        "fieldLabel": "Label"
+                        "designer|userClassName": "MyColumn21",
+                        "dataIndex": "name",
+                        "flex": 1,
+                        "text": "Name"
                     },
-                    "designerId": "2dede237-c69d-4a53-b23c-732defb25490"
+                    "designerId": "3f825c30-46d9-46ae-8c00-e320164a4ea3"
                 }
             ]
         }

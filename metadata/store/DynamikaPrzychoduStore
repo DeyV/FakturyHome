@@ -6,14 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "FakturyStore",
+        "designer|userClassName": "DynamikaPrzychoduStore",
         "autoLoad": true,
-        "storeId": "Faktury",
-        "model": "Faktura",
-        "sortRoot": null
+        "storeId": "DynamikaPrzychoduStore",
+        "model": "DynamikaPrzychodu",
+        "sortRoot": "data"
     },
-    "id": "ExtBox1-ext-gen68620",
-    "designerId": "d67e0f7d-0b78-46bf-bf43-8f3245734d83",
+    "id": "ExtBox1-ext-gen12722",
+    "designerId": "192f2fcb-b2d2-4965-935e-11eede36ef7b",
     "cn": [
         {
             "type": "directproxy",
@@ -23,10 +23,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyDirectProxy",
-                "directFn": "Faktury.getList"
+                "designer|userClassName": "MyDirectProxy1",
+                "directFn": "DynamikaPrzychodu.getList"
             },
-            "designerId": "c7847769-a740-4d37-ab16-851b706070fe",
+            "designerId": "7a28e357-571d-49f9-80e1-7b4308e58cd4",
             "cn": [
                 {
                     "type": "jsonreader",
@@ -36,11 +36,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyJsonReader",
-                        "idProperty": null,
+                        "designer|userClassName": "MyJsonReader1",
                         "root": "data"
                     },
-                    "designerId": "2f9f5377-6843-45d1-ae10-516824dc6c10"
+                    "designerId": "ac4f2d3f-b6a1-426a-8862-84b00de24a39"
                 }
             ]
         }

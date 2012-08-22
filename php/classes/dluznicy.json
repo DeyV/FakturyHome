@@ -1,5 +1,5 @@
 {
-	"rows":[ {
+	"data":[ {
 		"kwota":"11.37",
 		"nazwa":"  KSI\u0118  O.O.",
 		"objid":22030
@@ -7,10 +7,13 @@
 		"kwota":"1111.00",
 		"nazwa":"  Towarzyst dasdsad sdas UW",
 		"objid":36448
-	},{
+	},
+	{
 		"kwota":"1111.80",
-		"nazwa":"  Powsze zaklad opieki spo³ecznej ",
+		"nazwa":"  Powsze zaklad opieki spoecznej ",
 		"objid":22107
-	}],
-	"total":10
+	}
+	
+	],
+	"total":3
 }

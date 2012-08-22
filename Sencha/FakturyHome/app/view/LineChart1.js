@@ -21,7 +21,7 @@ Ext.define('MyApp.view.LineChart1', {
     width: 400,
     animate: true,
     insetPadding: 20,
-    store: 'FakturyStore',
+    store: 'WykresGrupyStore',
 
     initComponent: function() {
         var me = this;
@@ -30,35 +30,32 @@ Ext.define('MyApp.view.LineChart1', {
             axes: [
                 {
                     type: 'Category',
-                    fields: [
-                        'made_for'
-                    ],
                     position: 'bottom',
-                    title: 'Category Axis'
+                    title: 'Kategoria'
                 },
                 {
                     type: 'Numeric',
                     fields: [
-                        'value'
+                        'ilosc'
                     ],
                     position: 'left',
-                    title: 'Numeric Axis'
+                    title: 'Ilość',
+                    adjustMaximumByMajorUnit: true
                 }
             ],
             series: [
                 {
                     type: 'line',
-                    xField: 'x',
+                    xField: 'ilosc',
                     yField: [
-                        'y'
+                        'datawystawienia'
                     ],
                     smooth: 3
                 },
                 {
                     type: 'column',
-                    xField: 'date',
                     yField: [
-                        'value'
+                        'ilosc'
                     ],
                     groupGutter: 28
                 }

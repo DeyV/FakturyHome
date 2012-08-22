@@ -20,7 +20,7 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyField",
-                "name": "number"
+                "name": "id"
             },
             "designerId": "a3cbca87-ade5-4bbd-9153-fbd6b9439d62"
         },
@@ -33,7 +33,7 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyField1",
-                "name": "comment"
+                "name": "name"
             },
             "designerId": "7f467ff6-4175-4552-97ea-5095e6eec27a"
         },
@@ -46,7 +46,7 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyField2",
-                "name": "value"
+                "name": "ilosc"
             },
             "designerId": "6070158d-287c-4c9e-aaab-6d6f6c4d797e"
         },
@@ -59,7 +59,7 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyField3",
-                "name": "date"
+                "name": "podmiot"
             },
             "designerId": "4ba92557-6dbf-4610-803b-32e7ead1774b"
         },
@@ -72,10 +72,23 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyField4",
-                "mapping": "for",
-                "name": "made_for"
+                "mapping": null,
+                "name": "datawystawienia"
             },
             "designerId": "62dcab34-a0d2-482a-aed1-4d3fcbd7b9f3"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField5",
+                "name": "datazaplaty"
+            },
+            "designerId": "fb3a75b8-dc1f-4e36-84a0-b9c17b028695"
         }
     ]
 }

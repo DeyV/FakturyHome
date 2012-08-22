@@ -1,0 +1,67 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Zadanie"
+    },
+    "id": "ExtBox1-ext-gen14323",
+    "designerId": "98b5d4b9-ab44-4734-b0cc-975776732526",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField6",
+                "name": "id"
+            },
+            "designerId": "59a60240-f84b-40cd-80ff-c37d4b011df3"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField7",
+                "name": "opis"
+            },
+            "designerId": "5d5ca8d4-2b93-4d36-9a43-4968f0a28504"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField8",
+                "name": "dzienmsc"
+            },
+            "designerId": "dbe64fff-3e38-4fc3-957c-04f8d08ec629"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField9",
+                "name": "powtarzaj"
+            },
+            "designerId": "b09fcefc-f89c-43b6-9dea-2ac75385acf7"
+        }
+    ]
+}

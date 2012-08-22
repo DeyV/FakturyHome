@@ -33,7 +33,7 @@ Ext.define('MyApp.view.MyViewport', {
             items: [
                 {
                     xtype: 'panel',
-                    flex: 3,
+                    flex: 2,
                     id: 'mainLeft',
                     layout: {
                         align: 'stretch',
@@ -44,31 +44,28 @@ Ext.define('MyApp.view.MyViewport', {
                             xtype: 'gridpanel',
                             flex: 1,
                             title: 'Dłużnicy',
+                            store: 'DluznicyStore',
+                            viewConfig: {
+
+                            },
                             columns: [
                                 {
                                     xtype: 'gridcolumn',
-                                    dataIndex: 'string',
-                                    text: 'String'
+                                    dataIndex: 'kwota',
+                                    text: 'Kwota'
                                 },
                                 {
-                                    xtype: 'numbercolumn',
-                                    dataIndex: 'number',
-                                    text: 'Number'
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'nazwa',
+                                    flex: 1,
+                                    text: 'Nazwa'
                                 },
                                 {
-                                    xtype: 'datecolumn',
-                                    dataIndex: 'date',
-                                    text: 'Date'
-                                },
-                                {
-                                    xtype: 'booleancolumn',
-                                    dataIndex: 'bool',
-                                    text: 'Boolean'
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'objid',
+                                    text: 'Objid'
                                 }
-                            ],
-                            viewConfig: {
-
-                            }
+                            ]
                         },
                         {
                             xtype: 'panel',
@@ -82,31 +79,28 @@ Ext.define('MyApp.view.MyViewport', {
                                     xtype: 'gridpanel',
                                     width: 100,
                                     title: '',
+                                    store: 'PodsumowanieStore',
+                                    viewConfig: {
+
+                                    },
                                     columns: [
                                         {
                                             xtype: 'gridcolumn',
-                                            dataIndex: 'string',
-                                            text: 'String'
+                                            dataIndex: 'id',
+                                            text: 'Id'
                                         },
                                         {
-                                            xtype: 'numbercolumn',
-                                            dataIndex: 'number',
-                                            text: 'Number'
+                                            xtype: 'gridcolumn',
+                                            dataIndex: 'name',
+                                            flex: 1,
+                                            text: 'Name'
                                         },
                                         {
-                                            xtype: 'datecolumn',
-                                            dataIndex: 'date',
-                                            text: 'Date'
-                                        },
-                                        {
-                                            xtype: 'booleancolumn',
-                                            dataIndex: 'bool',
-                                            text: 'Boolean'
+                                            xtype: 'gridcolumn',
+                                            dataIndex: 'ilosc',
+                                            text: 'Ilosc'
                                         }
-                                    ],
-                                    viewConfig: {
-
-                                    }
+                                    ]
                                 }
                             ]
                         },
@@ -121,31 +115,23 @@ Ext.define('MyApp.view.MyViewport', {
                                 {
                                     xtype: 'gridpanel',
                                     title: '',
+                                    store: 'DynamikaPrzychoduStore',
+                                    viewConfig: {
+
+                                    },
                                     columns: [
                                         {
                                             xtype: 'gridcolumn',
-                                            dataIndex: 'string',
-                                            text: 'String'
+                                            dataIndex: 'okres',
+                                            flex: 1,
+                                            text: 'Okres'
                                         },
                                         {
-                                            xtype: 'numbercolumn',
-                                            dataIndex: 'number',
-                                            text: 'Number'
-                                        },
-                                        {
-                                            xtype: 'datecolumn',
-                                            dataIndex: 'date',
-                                            text: 'Date'
-                                        },
-                                        {
-                                            xtype: 'booleancolumn',
-                                            dataIndex: 'bool',
-                                            text: 'Boolean'
+                                            xtype: 'gridcolumn',
+                                            dataIndex: 'wartosc',
+                                            text: 'Wartosc'
                                         }
-                                    ],
-                                    viewConfig: {
-
-                                    }
+                                    ]
                                 }
                             ]
                         }
@@ -174,37 +160,6 @@ Ext.define('MyApp.view.MyViewport', {
                             viewConfig: {
 
                             },
-                            columns: [
-                                {
-                                    xtype: 'gridcolumn',
-                                    dataIndex: 'number',
-                                    text: 'Numer'
-                                },
-                                {
-                                    xtype: 'gridcolumn',
-                                    dataIndex: 'comment',
-                                    flex: 2,
-                                    text: 'Podsumowanie'
-                                },
-                                {
-                                    xtype: 'gridcolumn',
-                                    dataIndex: 'value',
-                                    text: 'Kwota'
-                                },
-                                {
-                                    xtype: 'gridcolumn',
-                                    autoRender: false,
-                                    styleHtmlContent: false,
-                                    dataIndex: 'date',
-                                    tdCls: 'FakturyDate',
-                                    text: 'Data Wystawienia'
-                                },
-                                {
-                                    xtype: 'gridcolumn',
-                                    dataIndex: 'made_for',
-                                    text: 'Ustalona dla'
-                                }
-                            ],
                             dockedItems: [
                                 {
                                     xtype: 'toolbar',
@@ -242,37 +197,74 @@ Ext.define('MyApp.view.MyViewport', {
                                     fn: me.onGridpanelItemContextMenu,
                                     scope: me
                                 }
-                            }
+                            },
+                            columns: [
+                                {
+                                    xtype: 'gridcolumn',
+                                    hidden: true,
+                                    dataIndex: 'id',
+                                    text: 'Id'
+                                },
+                                {
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'name',
+                                    text: 'Numer'
+                                },
+                                {
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'podmiot',
+                                    flex: 1,
+                                    text: 'Podmiot'
+                                },
+                                {
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'ilosc',
+                                    text: 'Kwota'
+                                },
+                                {
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'datawystawienia',
+                                    text: 'Data Wystawienia'
+                                },
+                                {
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'datazaplaty',
+                                    flex: 0.3,
+                                    text: 'Ustalona data zapłaty'
+                                }
+                            ]
                         },
                         {
                             xtype: 'gridpanel',
                             flex: 1,
                             title: 'Zadania Zaplanowane',
+                            store: 'ZadaniaStore',
+                            viewConfig: {
+
+                            },
                             columns: [
                                 {
                                     xtype: 'gridcolumn',
-                                    dataIndex: 'string',
-                                    text: 'String'
+                                    dataIndex: 'id',
+                                    text: 'Id'
                                 },
                                 {
-                                    xtype: 'numbercolumn',
-                                    dataIndex: 'number',
-                                    text: 'Number'
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'opis',
+                                    flex: 1,
+                                    text: 'Opis'
                                 },
                                 {
-                                    xtype: 'datecolumn',
-                                    dataIndex: 'date',
-                                    text: 'Date'
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'dzienmsc',
+                                    text: 'Dzienmsc'
                                 },
                                 {
-                                    xtype: 'booleancolumn',
-                                    dataIndex: 'bool',
-                                    text: 'Boolean'
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'powtarzaj',
+                                    text: 'Powtarzaj'
                                 }
-                            ],
-                            viewConfig: {
-
-                            }
+                            ]
                         }
                     ]
                 },
@@ -432,7 +424,7 @@ Ext.define('MyApp.view.MyViewport', {
 
     onToolClick1: function(tool, e, options) {
         MyApp.view.PieChart.create()
-        Ext.getCmp("PieChart").show()
+        Ext.getCmp("OknoPieChart").show()
     }
 
 });
