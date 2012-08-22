@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://localhost/Sencha/FakturyHome/metadata/resource/FakturyStyle.css",
+        "id": 0
+    },
+    "id": "ExtBox1-ext-gen80310",
+    "designerId": "0784a17b-c101-4d32-bdc3-10029c1e7c0c"
+}

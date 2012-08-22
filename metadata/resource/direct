@@ -1,0 +1,13 @@
+{
+    "type": "directresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://localhost/Sencha/FakturyHome/php/api.php"
+    },
+    "id": "ExtBox1-ext-gen66430",
+    "designerId": "ddd8deeb-4e36-473a-959d-64c234c18aa8"
+}

@@ -1,0 +1,50 @@
+{
+    "type": "chart",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PieChart1",
+        "designer|userAlias": "piechart1",
+        "height": 294,
+        "id": null,
+        "width": 282,
+        "animate": [
+            "true"
+        ],
+        "insetPadding": 20,
+        "store": "FakturyStore"
+    },
+    "id": "ExtBox1-ext-gen104850",
+    "designerId": "472bc1aa-4b8f-44cc-ad75-9557c4432a3a",
+    "cn": [
+        {
+            "type": "pieseries",
+            "reference": {
+                "name": "series",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPieSeries",
+                "highlight": [
+                    "true"
+                ],
+                "tips": [
+                    "{ trackMouse: false,\r",
+                    "  width: 140,\r",
+                    "  height: 28,\r",
+                    "  renderer: function(storeItem, item) {\r",
+                    "    this.setTitle(storeItem.get('date') + ': ' + storeItem.get('value'));\r",
+                    "  }}"
+                ],
+                "title": "date",
+                "angleField": "date",
+                "donut": null
+            },
+            "designerId": "53385708-8e0c-4a48-8947-9d0c1d6c39a0"
+        }
+    ]
+}

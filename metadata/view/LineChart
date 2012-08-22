@@ -1,0 +1,110 @@
+{
+    "type": "window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userClassName": "LineChart",
+        "height": 624,
+        "hidden": false,
+        "id": "LineChart",
+        "width": 966,
+        "layout": "hbox",
+        "title": "Okno",
+        "maximizable": true,
+        "maximized": false,
+        "modal": true
+    },
+    "id": "ExtBox1-ext-gen30459",
+    "designerId": "4a126a20-9b38-4a2d-a7c5-3c9e915efb7a",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1
+            },
+            "designerId": "d6f02218-b3b3-416a-b4aa-7c320e726531",
+            "masterInstanceId": "ExtBox1-ext-gen1888"
+        },
+        {
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "designer|userClassName": "MyFieldSet",
+                "title": "Faktury Opłacone / Nieopłacone"
+            },
+            "designerId": "3d59e1c8-aa44-49d3-9a1e-6445510594b2",
+            "cn": [
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField",
+                        "fieldLabel": "Label"
+                    },
+                    "designerId": "61975e40-da36-444a-93e6-1935718262bb"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField",
+                        "fieldLabel": "Label"
+                    },
+                    "designerId": "a4754402-3ab8-4f78-b414-881ede613b62"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField",
+                        "fieldLabel": "Label"
+                    },
+                    "designerId": "1d227dd4-326d-426d-bde6-e9cef3dbee6d"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField",
+                        "fieldLabel": "Label"
+                    },
+                    "designerId": "330f700d-dbbe-4de0-92db-87c30ad6c0e3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "type": "chart",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LineChart1",
+        "designer|userAlias": "linechart1",
+        "height": 250,
+        "width": 400,
+        "animate": [
+            "true"
+        ],
+        "insetPadding": 20,
+        "store": "FakturyStore"
+    },
+    "id": "ExtBox1-ext-gen1888",
+    "designerId": "3168f76a-8ee8-421c-9036-f3687cff0387",
+    "cn": [
+        {
+            "type": "categoryaxis",
+            "reference": {
+                "name": "axes",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyCategoryAxis",
+                "fields": [
+                    "made_for"
+                ],
+                "position": "bottom",
+                "title": "Category Axis"
+            },
+            "designerId": "f9e7f188-1db8-4676-ad58-34dc0857b348"
+        },
+        {
+            "type": "numericaxis",
+            "reference": {
+                "name": "axes",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyNumericAxis",
+                "fields": [
+                    "value"
+                ],
+                "position": "left",
+                "title": "Numeric Axis"
+            },
+            "designerId": "7d6a290a-a240-4c81-b4d0-5d133d607ba9"
+        },
+        {
+            "type": "lineseries",
+            "reference": {
+                "name": "series",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyLineSeries",
+                "xField": "x",
+                "yField": [
+                    "y"
+                ],
+                "smooth": 3
+            },
+            "designerId": "8c040ca8-7da6-49ab-9688-e523a0a7ae5a"
+        },
+        {
+            "type": "columnseries",
+            "reference": {
+                "name": "series",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumnSeries",
+                "xField": "date",
+                "yField": [
+                    "value"
+                ],
+                "groupGutter": 28
+            },
+            "designerId": "72b3e77e-3bf2-46f5-af7a-042567310d62"
+        }
+    ]
+}

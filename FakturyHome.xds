@@ -1,0 +1,131 @@
+{
+    "name": "FakturyHome",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 588,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "897cf178-88ea-45f7-bfe4-71321904f8cb": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "47364e41-f168-4b73-aa83-8224c2ee39d0": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "Sencha/FakturyHome/app/view/override/MyViewport.js",
+                "Sencha/FakturyHome/app/view/MyViewport.js",
+                "Sencha/FakturyHome/app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "ddd8deeb-4e36-473a-959d-64c234c18aa8": {
+            "paths": [
+                "metadata/resource/direct"
+            ],
+            "className": "direct"
+        },
+        "d67e0f7d-0b78-46bf-bf43-8f3245734d83": {
+            "paths": [
+                "metadata/store/FakturyStore",
+                "Sencha/FakturyHome/app/store/override/FakturyStore.js",
+                "Sencha/FakturyHome/app/store/FakturyStore.js"
+            ],
+            "className": "FakturyStore"
+        },
+        "b7dad3c5-9f2d-499e-a78c-d753abc0fd60": {
+            "paths": [
+                "metadata/model/Faktura",
+                "Sencha/FakturyHome/app/model/override/Faktura.js",
+                "Sencha/FakturyHome/app/model/Faktura.js"
+            ],
+            "className": "Faktura"
+        },
+        "0784a17b-c101-4d32-bdc3-10029c1e7c0c": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "d6278de7-2225-4a8a-b732-f96f6ad8898e": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
+        },
+        "cd6a7106-fae1-4622-a365-33e1316002de": {
+            "paths": [
+                "metadata/resource/js1"
+            ],
+            "className": "js1"
+        },
+        "472bc1aa-4b8f-44cc-ad75-9557c4432a3a": {
+            "paths": [
+                "metadata/view/PieChart1",
+                "Sencha/FakturyHome/app/view/override/PieChart1.js",
+                "Sencha/FakturyHome/app/view/PieChart1.js"
+            ],
+            "className": "PieChart1"
+        },
+        "3168f76a-8ee8-421c-9036-f3687cff0387": {
+            "paths": [
+                "metadata/view/LineChart1",
+                "Sencha/FakturyHome/app/view/override/LineChart1.js",
+                "Sencha/FakturyHome/app/view/LineChart1.js"
+            ],
+            "className": "LineChart1"
+        },
+        "d6d37d65-d706-4586-acd2-269f97dbf775": {
+            "paths": [
+                "metadata/view/PieChart",
+                "Sencha/FakturyHome/app/view/override/PieChart.js",
+                "Sencha/FakturyHome/app/view/PieChart.js"
+            ],
+            "className": "PieChart"
+        },
+        "4a126a20-9b38-4a2d-a7c5-3c9e915efb7a": {
+            "paths": [
+                "metadata/view/LineChart",
+                "Sencha/FakturyHome/app/view/override/LineChart.js",
+                "Sencha/FakturyHome/app/view/LineChart.js"
+            ],
+            "className": "LineChart"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "47364e41-f168-4b73-aa83-8224c2ee39d0",
+            "472bc1aa-4b8f-44cc-ad75-9557c4432a3a",
+            "3168f76a-8ee8-421c-9036-f3687cff0387",
+            "d6d37d65-d706-4586-acd2-269f97dbf775",
+            "4a126a20-9b38-4a2d-a7c5-3c9e915efb7a"
+        ],
+        "store": [
+            "d67e0f7d-0b78-46bf-bf43-8f3245734d83"
+        ],
+        "controller": [],
+        "model": [
+            "b7dad3c5-9f2d-499e-a78c-d753abc0fd60"
+        ],
+        "resource": [
+            "897cf178-88ea-45f7-bfe4-71321904f8cb",
+            "ddd8deeb-4e36-473a-959d-64c234c18aa8",
+            "0784a17b-c101-4d32-bdc3-10029c1e7c0c",
+            "d6278de7-2225-4a8a-b732-f96f6ad8898e",
+            "cd6a7106-fae1-4622-a365-33e1316002de"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

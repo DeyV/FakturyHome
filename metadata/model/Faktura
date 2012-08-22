@@ -1,0 +1,81 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Faktura"
+    },
+    "id": "ExtBox1-ext-gen69151",
+    "designerId": "b7dad3c5-9f2d-499e-a78c-d753abc0fd60",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField",
+                "name": "number"
+            },
+            "designerId": "a3cbca87-ade5-4bbd-9153-fbd6b9439d62"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField1",
+                "name": "comment"
+            },
+            "designerId": "7f467ff6-4175-4552-97ea-5095e6eec27a"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField2",
+                "name": "value"
+            },
+            "designerId": "6070158d-287c-4c9e-aaab-6d6f6c4d797e"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField3",
+                "name": "date"
+            },
+            "designerId": "4ba92557-6dbf-4610-803b-32e7ead1774b"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField4",
+                "mapping": "for",
+                "name": "made_for"
+            },
+            "designerId": "62dcab34-a0d2-482a-aed1-4d3fcbd7b9f3"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "directstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "FakturyStore",
+        "autoLoad": true,
+        "storeId": "Faktury",
+        "model": "Faktura",
+        "sortRoot": null
+    },
+    "id": "ExtBox1-ext-gen68620",
+    "designerId": "d67e0f7d-0b78-46bf-bf43-8f3245734d83",
+    "cn": [
+        {
+            "type": "directproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyDirectProxy",
+                "directFn": "Faktury.getList"
+            },
+            "designerId": "c7847769-a740-4d37-ab16-851b706070fe",
+            "cn": [
+                {
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader",
+                        "idProperty": "",
+                        "root": "data"
+                    },
+                    "designerId": "2f9f5377-6843-45d1-ae10-516824dc6c10"
+                }
+            ]
+        }
+    ]
+}

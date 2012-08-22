@@ -1,0 +1,15 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://localhost/Sencha/FakturyHome/metadata/resource/script.js",
+        "defer": true,
+        "id": "main"
+    },
+    "id": "ExtBox1-ext-gen114257",
+    "designerId": "d6278de7-2225-4a8a-b732-f96f6ad8898e"
+}

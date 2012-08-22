@@ -1,0 +1,958 @@
+{
+    "type": "viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userClassName": "MyViewport",
+        "designer|initialView": true,
+        "layout": "hbox"
+    },
+    "id": "ExtBox1-ext-gen1889",
+    "designerId": "47364e41-f168-4b73-aa83-8224c2ee39d0",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 3,
+                "container|align": "stretch",
+                "designer|userClassName": "MyPanel",
+                "designer|displayName": "Left",
+                "id": "mainLeft",
+                "layout": "vbox",
+                "title": null
+            },
+            "designerId": "92a0784c-a393-45c4-809d-f2ae5a5a9450",
+            "cn": [
+                {
+                    "type": "gridpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyGridPanel",
+                        "title": "Dłużnicy"
+                    },
+                    "designerId": "b4307920-ec8e-4803-bc89-bdb671f06baa",
+                    "cn": [
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn",
+                                "dataIndex": "string",
+                                "text": "String"
+                            },
+                            "designerId": "a2d66c18-bd36-4ee6-b90e-d4b2f33a8daa"
+                        },
+                        {
+                            "type": "numbercolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNumberColumn",
+                                "dataIndex": "number",
+                                "text": "Number"
+                            },
+                            "designerId": "890f3744-c08b-4124-9245-759d773544d3"
+                        },
+                        {
+                            "type": "datecolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyDateColumn",
+                                "dataIndex": "date",
+                                "text": "Date"
+                            },
+                            "designerId": "00847d0d-2e53-44a9-abd9-609f7b3adeef"
+                        },
+                        {
+                            "type": "booleancolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyBooleanColumn",
+                                "dataIndex": "bool",
+                                "text": "Boolean"
+                            },
+                            "designerId": "2cae4c29-8f4b-497f-a561-c3bd8884e34d"
+                        },
+                        {
+                            "type": "gridview",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGridView"
+                            },
+                            "designerId": "047d8ed7-fbe2-45cc-8abb-7d466dbdcfb6"
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyPanel4",
+                        "layout": "fit",
+                        "title": "Podsumowanie"
+                    },
+                    "designerId": "d8969825-5648-4af3-960d-91e23bdf0414",
+                    "cn": [
+                        {
+                            "type": "gridpanel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": null,
+                                "designer|userClassName": "MyGridPanel1",
+                                "width": 100,
+                                "title": ""
+                            },
+                            "designerId": "7ca159cc-bb01-49d7-9e60-1707ed976f39",
+                            "cn": [
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn1",
+                                        "dataIndex": "string",
+                                        "text": "String"
+                                    },
+                                    "designerId": "2617fc59-b2b7-407a-aa07-06827bac02ae"
+                                },
+                                {
+                                    "type": "numbercolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyNumberColumn1",
+                                        "dataIndex": "number",
+                                        "text": "Number"
+                                    },
+                                    "designerId": "7f3fb6db-5edb-401a-80e1-83dde9c600f1"
+                                },
+                                {
+                                    "type": "datecolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyDateColumn1",
+                                        "dataIndex": "date",
+                                        "text": "Date"
+                                    },
+                                    "designerId": "8ffd362d-61b8-4425-955a-f72f710f03e0"
+                                },
+                                {
+                                    "type": "booleancolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyBooleanColumn1",
+                                        "dataIndex": "bool",
+                                        "text": "Boolean"
+                                    },
+                                    "designerId": "daf4c038-3ee1-426b-9967-19b40548bd66"
+                                },
+                                {
+                                    "type": "gridview",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyGridView1"
+                                    },
+                                    "designerId": "4f95e716-5994-4501-aa87-f118ad7b529c"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 2,
+                        "designer|userClassName": "MyPanel5",
+                        "layout": "fit",
+                        "title": "Dynamika Przychodu"
+                    },
+                    "designerId": "48d64b37-27b9-473d-b6cb-2696415fcab4",
+                    "cn": [
+                        {
+                            "type": "gridpanel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGridPanel2",
+                                "title": ""
+                            },
+                            "designerId": "6e7ad5fd-7bd1-41f4-9c3a-872d8bcbbd8d",
+                            "cn": [
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn2",
+                                        "dataIndex": "string",
+                                        "text": "String"
+                                    },
+                                    "designerId": "db16b43f-584b-47af-9ab3-49c3740a719f"
+                                },
+                                {
+                                    "type": "numbercolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyNumberColumn2",
+                                        "dataIndex": "number",
+                                        "text": "Number"
+                                    },
+                                    "designerId": "54c9d442-178e-421c-b81a-b6528614991a"
+                                },
+                                {
+                                    "type": "datecolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyDateColumn2",
+                                        "dataIndex": "date",
+                                        "text": "Date"
+                                    },
+                                    "designerId": "f2858447-098c-46b9-b0ee-1ccab21f03c6"
+                                },
+                                {
+                                    "type": "booleancolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyBooleanColumn2",
+                                        "dataIndex": "bool",
+                                        "text": "Boolean"
+                                    },
+                                    "designerId": "e30f4714-5c9a-4669-bb38-d0e2ced47534"
+                                },
+                                {
+                                    "type": "gridview",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyGridView2"
+                                    },
+                                    "designerId": "2d62e1ac-de31-4d9c-af16-74e7fecf9c37"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 5,
+                "container|align": "stretch",
+                "designer|userClassName": "MyPanel1",
+                "designer|displayName": "Middle",
+                "id": "mainMiddle",
+                "layout": "vbox",
+                "title": null
+            },
+            "designerId": "487cf29c-0954-4ee8-a3d7-c5e86cae8f17",
+            "cn": [
+                {
+                    "type": "gridpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyGridPanel3",
+                        "autoRender": false,
+                        "itemId": "FakturyGrid",
+                        "styleHtmlContent": false,
+                        "suspendLayout": true,
+                        "bodyCls": "FakturyBody",
+                        "bodyStyle": [
+                            "'color: red'"
+                        ],
+                        "title": "Faktury Nieopłacone",
+                        "store": "FakturyStore"
+                    },
+                    "configAlternates": {
+                        "viewConfig": "object"
+                    },
+                    "designerId": "103a235e-65d7-4db5-b2c1-daa0bf523b5c",
+                    "cn": [
+                        {
+                            "type": "gridview",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGridView3"
+                            },
+                            "designerId": "5725324a-a40c-412d-97b0-bb629b291e3a"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn5",
+                                "dataIndex": "number",
+                                "text": "Numer"
+                            },
+                            "designerId": "b3753302-65c7-436c-9727-3a15214ecd8f"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn6",
+                                "dataIndex": "comment",
+                                "flex": 2,
+                                "text": "Podsumowanie"
+                            },
+                            "designerId": "40f0807c-4d53-4484-9cec-4dd0175ebdd3"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn7",
+                                "dataIndex": "value",
+                                "text": "Kwota"
+                            },
+                            "designerId": "768547de-6934-49c0-8085-a7b8c8719e06"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn3",
+                                "autoRender": false,
+                                "styleHtmlContent": false,
+                                "dataIndex": "date",
+                                "tdCls": "FakturyDate",
+                                "text": "Data Wystawienia"
+                            },
+                            "designerId": "4a2756c9-bf20-45ed-bb4e-5ca535952b52"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn9",
+                                "dataIndex": "made_for",
+                                "text": "Ustalona dla"
+                            },
+                            "designerId": "5eb87dab-c68e-40e3-a279-a2d3a60f88a0"
+                        },
+                        {
+                            "type": "toolbar",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "bottom",
+                                "designer|userClassName": "MyToolbar"
+                            },
+                            "designerId": "e58e2439-7e2b-4079-a032-a95737a47105",
+                            "cn": [
+                                {
+                                    "type": "textfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "designer|userClassName": "MyTextField8",
+                                        "fieldLabel": "Szukaj:"
+                                    },
+                                    "designerId": "8127b58f-5b7f-4535-a6a6-01289ab6c1e0",
+                                    "cn": [
+                                        {
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "onTextfieldChange",
+                                                "fn": "onTextfieldChange",
+                                                "implHandler": [
+                                                    "var StoreBuf = Ext.StoreMgr.get(\"FakturyStore\");\r",
+                                                    "/*var filterBracket = \"*\"; \r",
+                                                    "var filter = filterBracket.concat(newValue);\r",
+                                                    "filter = filter.concat(filterBracket);\r",
+                                                    "*/\r",
+                                                    "StoreBuf.clearFilter();\r",
+                                                    "    StoreBuf.filter([\r",
+                                                    "{\r",
+                                                    "    property:[\"number\",\"made_for\",\"content\"],\r",
+                                                    "    value: newValue,\r",
+                                                    "    anyMatch: true\r",
+                                                    "}\r",
+                                                    "]);\r",
+                                                    ""
+                                                ],
+                                                "name": "change",
+                                                "scope": "me"
+                                            },
+                                            "designerId": "de580b2c-5878-4ea6-9954-2c521f99c016"
+                                        },
+                                        {
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "onTextfieldSpecialkey",
+                                                "fn": "onTextfieldSpecialkey",
+                                                "implHandler": [
+                                                    "var StoreBuf = Ext.StoreMgr.get(\"FakturyStore\");\r",
+                                                    "if (e.button == 7){\r",
+                                                    "    StoreBuf.clearFilter();\r",
+                                                    "    field.fireEvent(\"change\");\r",
+                                                    "}"
+                                                ],
+                                                "name": "specialkey",
+                                                "scope": "me"
+                                            },
+                                            "designerId": "5070e80a-5d1e-4d40-9722-e42289c7deda"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "designer|userClassName": "MyButton",
+                                        "text": "Wyczyść"
+                                    },
+                                    "designerId": "0dda9797-a7a5-43ed-8fa1-214bdda087de",
+                                    "cn": [
+                                        {
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "onButtonClick",
+                                                "fn": "onButtonClick",
+                                                "implHandler": [
+                                                    "var StoreBuf = Ext.StoreMgr.get(\"FakturyStore\");\r",
+                                                    "StoreBuf.clearFilter();\r",
+                                                    "console.log(button.up().down(\"field\").setValue(\"\"));"
+                                                ],
+                                                "name": "click",
+                                                "scope": "me"
+                                            },
+                                            "designerId": "f38822bb-5f2a-4ba2-83d3-e6346c97f01b"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onGridpanelItemContextMenu",
+                                "fn": "onGridpanelItemContextMenu",
+                                "implHandler": [
+                                    "e.stopEvent();\r",
+                                    "var Sklep = tablepanel.getStore();\r",
+                                    "\r",
+                                    "var menu = new Ext.menu.Menu({\r",
+                                    "    items: [{\r",
+                                    "        text: 'Oznacz jako: Opłacona.',\r",
+                                    "        handler: function() {\r",
+                                    "            console.log(Sklep.data.number);\r",
+                                    "            Faktury.isPaid({\r",
+                                    "                data: {number: Sklep.getAt(index).data.number},\r",
+                                    "                success: Sklep.remove(record),\r",
+                                    "                //failure: alert(\"Napotkano błąd!\")\r",
+                                    "            });\r",
+                                    "        }\r",
+                                    "    }]\r",
+                                    "}).showAt(e.xy);"
+                                ],
+                                "name": "itemcontextmenu",
+                                "scope": "me"
+                            },
+                            "designerId": "a27e7859-d64e-4d43-8955-8ec99256d943"
+                        }
+                    ]
+                },
+                {
+                    "type": "gridpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyGridPanel4",
+                        "title": "Zadania Zaplanowane"
+                    },
+                    "designerId": "18d74846-1044-44aa-be62-a43067d27448",
+                    "cn": [
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn4",
+                                "dataIndex": "string",
+                                "text": "String"
+                            },
+                            "designerId": "17e75955-a52a-4029-bcac-42e463d5b568"
+                        },
+                        {
+                            "type": "numbercolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNumberColumn4",
+                                "dataIndex": "number",
+                                "text": "Number"
+                            },
+                            "designerId": "e9e82ca7-82ab-40da-9a64-3c5e2035c85a"
+                        },
+                        {
+                            "type": "datecolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyDateColumn4",
+                                "dataIndex": "date",
+                                "text": "Date"
+                            },
+                            "designerId": "3dd12870-a1f3-4894-8af0-7890b2d94ccf"
+                        },
+                        {
+                            "type": "booleancolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyBooleanColumn4",
+                                "dataIndex": "bool",
+                                "text": "Boolean"
+                            },
+                            "designerId": "57bc5042-03c6-4f3f-8813-647740d23c1c"
+                        },
+                        {
+                            "type": "gridview",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGridView4"
+                            },
+                            "designerId": "7f020654-1626-47bd-9c94-8e2ed7a55927"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 3,
+                "container|align": "stretch",
+                "designer|userClassName": "MyPanel2",
+                "designer|displayName": "Right",
+                "id": "mainRight",
+                "layout": "vbox",
+                "title": "Faktury opłacone / nieopłacone"
+            },
+            "designerId": "1bd6b958-af1c-4af7-9bce-1e5324818fab",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "theme": "Purple",
+                        "layout|flex": 1
+                    },
+                    "designerId": "333455f6-321f-47d3-99a7-fced0abc81ee",
+                    "masterInstanceId": "ExtBox1-ext-gen104850"
+                },
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 2,
+                        "designer|userClassName": "MyTabPanel",
+                        "activeTab": 0
+                    },
+                    "designerId": "8e9cf690-83c9-401c-9f6b-151e9ded88ea",
+                    "cn": [
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "designer|userClassName": "MyPanel5",
+                                "layout": "vbox",
+                                "title": "Sprzedaż w roku"
+                            },
+                            "designerId": "6733b4bc-1d6a-4ac6-ba60-fdef5ce983fe",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig"
+                                    },
+                                    "designerId": "909d1a64-bcdd-40b0-a394-b25b346f38e8"
+                                },
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "dockedItems",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": 0,
+                                        "layout|flex": 1,
+                                        "dock": "bottom"
+                                    },
+                                    "designerId": "f4cba4a0-286a-47cb-9437-b58339c25f23",
+                                    "masterInstanceId": "ExtBox1-ext-gen1888"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel6",
+                                "title": "Tab 2"
+                            },
+                            "designerId": "82015659-d50d-466f-8be6-e731b69ea27f",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig1"
+                                    },
+                                    "designerId": "af8eae3d-9273-48c9-988c-ad54eff6d1f5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel7",
+                                "title": "Tab 3"
+                            },
+                            "designerId": "3df774a6-a4f2-4d05-9fbc-c406ada16b3f",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig2"
+                                    },
+                                    "designerId": "09aa7663-4186-426e-91e6-4052fab35efc"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tool",
+                            "reference": {
+                                "name": "tools",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTool"
+                            },
+                            "designerId": "27f99183-b3bf-415a-b4cf-54050738a2a7",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "onToolClick",
+                                        "fn": "onToolClick",
+                                        "implHandler": [
+                                            "MyApp.view.LineChart.create()\r",
+                                            "Ext.getCmp(\"LineChart\").show()"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "designerId": "ab8b5fec-ceaf-4f92-9b86-9d112e16a20c"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tool",
+                    "reference": {
+                        "name": "tools",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTool1"
+                    },
+                    "designerId": "f40472bd-57e4-4bc5-99fa-64982f07f34e",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onToolClick1",
+                                "fn": "onToolClick1",
+                                "implHandler": [
+                                    "MyApp.view.PieChart.create()\r",
+                                    "Ext.getCmp(\"PieChart\").show()"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "6e61ba91-06c0-4f81-8d67-de972da5a2c8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "designer|snapToGrid": 10,
+                "designer|userClassName": "MyContainer",
+                "hidden": true,
+                "id": "FakturyChartLabel",
+                "layout": "absolute"
+            },
+            "designerId": "5102b621-ba9f-4522-8ac5-3defac1a75ce"
+        },
+        {
+            "type": "menu",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyMenu",
+                "floating": false,
+                "hidden": true,
+                "id": "FakturyContext",
+                "width": 120
+            },
+            "designerId": "99171407-5302-479a-9829-dcb59b15364e",
+            "cn": [
+                {
+                    "type": "menuitem",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyMenuItem",
+                        "hidden": true,
+                        "text": "Oznacz: Opłacona."
+                    },
+                    "designerId": "2c1b33f7-c235-40ef-99a9-a38908552960"
+                }
+            ]
+        }
+    ]
+}
