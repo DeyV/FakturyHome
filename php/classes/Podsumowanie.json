@@ -1,0 +1,21 @@
+{
+	"data":[{
+		"id":1,
+		"name":"Brutto z faktur",
+		"ilosc":"33333.96"
+	},{
+		"id":2,
+		"name":"Ilo\u015b\u0107 FAKTUR",
+		"ilosc":12
+	},{
+		"id":3,
+		"name":"Faktury NIEOP\u0141ACONE",
+		"ilosc":"333.77"
+	},{
+		"id":25,
+		"name":"Ilo\u015b\u0107 klient\u00f3w w bazie",
+		"ilosc":134,
+		"prio":8
+	}],
+	"total":4
+}

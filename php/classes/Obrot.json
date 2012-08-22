@@ -1,0 +1,16 @@
+{
+	"data":[{
+		"ilosc":84,
+		"value":"1111.37",
+		"name":"Zaleg\u0142e"
+	},{
+		"ilosc":512,
+		"value":"2222.19",
+		"name":"Op\u0142acone"
+	},{
+		"ilosc":21,
+		"value":"3333.40",
+		"name":"Przed terminem"
+	}],
+	"total":3
+}

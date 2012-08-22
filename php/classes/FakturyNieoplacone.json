@@ -1,0 +1,165 @@
+{
+	"data":[{
+		"id":40736,
+		"name":"FV\/00070\/2012",
+		"ilosc":"7380.00",
+		"podmiot":"sdasd sadas.pl S.A.",
+		"datawystawienia":"2012-02-02",
+		"datazaplaty":"2012-02-16"
+	},{
+		"id":40970,
+		"name":"FV\/00087\/2012",
+		"ilosc":"8073.00",
+		"podmiot":"Powszechny Zak\u0142ad Ubezpiecze\u0144 na \u017bycie SA",
+		"datawystawienia":"2012-02-24",
+		"datazaplaty":"2012-03-16"
+	},{
+		"id":42825,
+		"name":"FV\/00367\/2012",
+		"ilosc":"123.00",
+		"podmiot":"NetSystem Support & Technology",
+		"datawystawienia":"2012-05-21",
+		"datazaplaty":"2012-06-04"
+	},{
+		"id":43393,
+		"name":"FV\/00422\/2012",
+		"ilosc":"907.37",
+		"podmiot":"KSI\u0118GARNIA \u015aW. JACKA SP. Z O.O.",
+		"datawystawienia":"2012-07-02",
+		"datazaplaty":"2012-07-16"
+	},{
+		"id":43444,
+		"name":"FV\/00428\/2012",
+		"ilosc":"1200.00",
+		"podmiot":"Sopockie Towarzystwo Ubezpiecze\u0144 ERGO HESTIA SA",
+		"datawystawienia":"2012-07-04",
+		"datazaplaty":"2012-07-25"
+	},{
+		"id":43514,
+		"name":"FV\/00435\/2012",
+		"ilosc":"200.00",
+		"podmiot":"Groupama S.A. Oddzia\u0142 w Polsce",
+		"datawystawienia":"2012-07-09",
+		"datazaplaty":"2012-07-30"
+	},{
+		"id":43607,
+		"name":"FV\/00446\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-16",
+		"datazaplaty":"2012-07-30"
+	},{
+		"id":43610,
+		"name":"FV\/00447\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-16",
+		"datazaplaty":"2012-07-30"
+	},{
+		"id":43683,
+		"name":"FV\/00458\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43686,
+		"name":"FV\/00459\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43689,
+		"name":"FV\/00460\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43692,
+		"name":"FV\/00461\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43695,
+		"name":"FV\/00462\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43698,
+		"name":"FV\/00463\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43701,
+		"name":"FV\/00464\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43704,
+		"name":"FV\/00465\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43707,
+		"name":"FV\/00466\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43710,
+		"name":"FV\/00467\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43713,
+		"name":"FV\/00468\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43716,
+		"name":"FV\/00469\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43719,
+		"name":"FV\/00470\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43722,
+		"name":"FV\/00471\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	},{
+		"id":43725,
+		"name":"FV\/00472\/2012",
+		"ilosc":"200.00",
+		"podmiot":"TOWARZYSTWO UBEZPIECZE\u0143 INTER POLSKA S.A.",
+		"datawystawienia":"2012-07-19",
+		"datazaplaty":"2012-08-02"
+	}],
+	"total":20
+}
